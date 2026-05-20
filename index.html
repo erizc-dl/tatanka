@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TATANKA — a Lakota history</title>
+  <meta name="description" content="A choose-your-own-adventure history game set among the Hunkpapa and Oglala Lakota, 1855–1890. Built for an 8th grade U.S. History final project.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tatanka — a Lakota history">
+  <meta property="og:description" content="A choose-your-own-adventure history game set among the Hunkpapa and Oglala Lakota, 1855–1890. Nine endings. Real history.">
+  <meta property="og:image" content="https://tatankaonline.com/assets/og-image.png">
+  <meta property="og:url" content="https://tatankaonline.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tatanka — a Lakota history">
+  <meta name="twitter:description" content="A choose-your-own-adventure history game set among the Hunkpapa and Oglala Lakota, 1855–1890.">
+  <meta name="twitter:image" content="https://tatankaonline.com/assets/og-image.png">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Dependency order: stats → save → audio → tokens → historical_notes → scenes → minigames → engine -->
+  <script src="js/stats.js"></script>
+  <script src="js/save.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/tokens.js"></script>
+  <script src="js/historical_notes.js"></script>
+  <script src="js/scenes.js"></script>
+  <script src="js/minigame_hunt.js"></script>
+  <script src="js/minigame_ration.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
